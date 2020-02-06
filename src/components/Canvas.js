@@ -25,7 +25,7 @@ class Canvas extends React.Component {
         
         
         ctx.save();
-        // ctx.filter = 'blur(10px)';
+        // ctx.filter = 'blur(40px)';
         ctx.beginPath();
         ctx.fillStyle = `rgba(${b}, ${b}, ${b}, .03)`;
         ctx.fillRect(0, 0, width, height);
